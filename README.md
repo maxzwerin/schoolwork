@@ -11,7 +11,7 @@ run the program with _./a.out_
 
 in summary, the terminal should look something like this:
 ```
-cc FILENAME.c -lm -lX11\
+cc FILENAME.c -lm -lX11
 ./a.out
 ```
 
