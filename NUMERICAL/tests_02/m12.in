@@ -1,0 +1,10 @@
+3
+
+ 2   -5    1      -10
+ 6    8   12       48
+18    1   27       66
+
+this system is underdetermined...
+r2 = 3*r0 + 2*r1
+
+
