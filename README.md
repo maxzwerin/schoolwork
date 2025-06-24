@@ -15,7 +15,7 @@ cc FILENAME.c -lm -lX11
 ./a.out
 ```
 
-## **layout**
+## **LAYOUT**
 ### TOOLS
 - FPToolkit : a simple set of graphical tools
 - matrix_tools : some useful matrix manipulation tools for 2D and 3D usecases
@@ -40,3 +40,10 @@ _#include "../TOOLS/FPToolkit.c"_ for each file.
 
 ALTERNATIVELY you could copy/paste the contents of _/TOOLS/_\
 into each folder (which is much easier). enjoy!
+
+## how to run programs on mac
+1. download XQuartz and keep it running in the background
+2. compile using the flags below
+```
+gcc FILENAME.c -L/opt/X11/lib -I/opt/X11/include -lX11 -lm
+```
